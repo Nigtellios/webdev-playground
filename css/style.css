@@ -1,13 +1,29 @@
 /* IMPORTS */
-@import url('https://fonts.googleapis.com/css?family=Lato:200');
 
 /* NATIVE CLASSES */
+
 body {
-    margin: 0px;
+    margin: 10px 0 0 0;
     padding: 0px;
     background: rgba(255, 255, 255, 1.0);
-    border: 5px solid rgba(255, 75, 92, 1.0);
+    display: flex;
+    flex-direction: row;
 }
+
+body::before {
+    content: "";
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(255, 75, 92, 1.0);
+    top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+      flex-wrap: wrap;
+    }
+  }
 
 ul {
     padding-inline-start: 0px;
@@ -17,15 +33,11 @@ header {
     text-align: center;
 }
 
-nav {
-    text-align: center;
-}
-
 nav > ul {
     list-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 footer {
@@ -40,5 +52,21 @@ img {
     max-width: 100%;
 }
 
+main {
+    padding: 15px;
+
+}
+
 /* CLASSES */
 
+.sidebar {
+    width: 250px;
+}
+
+.wrap {
+    flex-direction: column;
+}
+
+.window {
+
+}
