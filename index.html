@@ -11,7 +11,7 @@
 
   <body>
 
-    <section class="sidebar"> <!-- Sidebar -->
+    <aside class="sidebar"> <!-- Sidebar -->
 
       <figure class="logotype">
         <a href="../index.html">
@@ -54,99 +54,86 @@
         </a>
       </div>
 
-    </section> <!-- end of sidebar -->
+    </aside> <!-- end of sidebar -->
 
     <section class="wrap"> <!-- Content wrap -->
 
-      <header class="p__rwd">
-        <h1>WebDev Playground</h1>
-        <p>by Jakub Kowalski</p>
-      </header>
+      <header class="p__rwd"> <!-- Header -->
+
+        <figure class="highlight">
+          <a href="https://youtu.be/9W6AN_eQeZo?t=30">
+            <img src="../media/dancingdoggo.gif" width="150px" height="150px" alt="Dancing dog animation">
+          </a>
+        </figure>
+
+        <div class="header-content"> <!-- here flex column -->
+          <div class="top-meta">
+            <h5>HELLO THERE!</h5>
+            <p>DATE <span>20 October 2020</span></p>
+          </div>
+          <div class="main-heading">
+            <h1>#devnotes</h1>
+            <h1>v0.01</h1>
+          </div>
+
+        </div>
+      </header> <!-- end of header -->
 
       <main class="p__rwd">
 
           <article>
-            <p>
-                This section would describe how the page should look like. There would be a navigation bar like a sidebar,
-                while every content div would looks like this one from OSX (Just for Design purposes - it's very clear and
-                noticable for many users in the web). The content section would take about 80% of whole page width, while 
-                sidebar (navbar) will be 20% wide. </br></br>
-
-                Also: There will be some simple devnotes which would describe upcoming/latest updates. This website will be
-                treaten as a mini-blog for my own development purposes. I would transform it into Webpack + Vue.JS + Node.JS 
-                project in near future. Have a fun while reading this! </br></br>
-
-                Content is wrapped into two sections to handle RWD more easily. </br></br>
-            </p>
-          </article>
-          <article>
-            <p>
-                This section would describe how the page should look like. There would be a navigation bar like a sidebar,
-                while every content div would looks like this one from OSX (Just for Design purposes - it's very clear and
-                noticable for many users in the web). The content section would take about 80% of whole page width, while 
-                sidebar (navbar) will be 20% wide. </br></br>
-
-                Also: There will be some simple devnotes which would describe upcoming/latest updates. This website will be
-                treaten as a mini-blog for my own development purposes. I would transform it into Webpack + Vue.JS + Node.JS 
-                project in near future. Have a fun while reading this! </br></br>
-
-                Content is wrapped into two sections to handle RWD more easily. </br></br>
-            </p>
-          </article>
-          <article>
-            <p>
-                This section would describe how the page should look like. There would be a navigation bar like a sidebar,
-                while every content div would looks like this one from OSX (Just for Design purposes - it's very clear and
-                noticable for many users in the web). The content section would take about 80% of whole page width, while 
-                sidebar (navbar) will be 20% wide. </br></br>
-
-                Also: There will be some simple devnotes which would describe upcoming/latest updates. This website will be
-                treaten as a mini-blog for my own development purposes. I would transform it into Webpack + Vue.JS + Node.JS 
-                project in near future. Have a fun while reading this! </br></br>
-
-                Content is wrapped into two sections to handle RWD more easily. </br></br>
-            </p>
-          </article>
-          <article>
-            <p>
-                This section would describe how the page should look like. There would be a navigation bar like a sidebar,
-                while every content div would looks like this one from OSX (Just for Design purposes - it's very clear and
-                noticable for many users in the web). The content section would take about 80% of whole page width, while 
-                sidebar (navbar) will be 20% wide. </br></br>
-
-                Also: There will be some simple devnotes which would describe upcoming/latest updates. This website will be
-                treaten as a mini-blog for my own development purposes. I would transform it into Webpack + Vue.JS + Node.JS 
-                project in near future. Have a fun while reading this! </br></br>
-
-                Content is wrapped into two sections to handle RWD more easily. </br></br>
-            </p>
-          </article>
-          <article>
-            <p>
-                This section would describe how the page should look like. There would be a navigation bar like a sidebar,
-                while every content div would looks like this one from OSX (Just for Design purposes - it's very clear and
-                noticable for many users in the web). The content section would take about 80% of whole page width, while 
-                sidebar (navbar) will be 20% wide. </br></br>
-
-                Also: There will be some simple devnotes which would describe upcoming/latest updates. This website will be
-                treaten as a mini-blog for my own development purposes. I would transform it into Webpack + Vue.JS + Node.JS 
-                project in near future. Have a fun while reading this! </br></br>
-
-                Content is wrapped into two sections to handle RWD more easily. </br></br>
-            </p>
+            <p>v0.04 - 20.10.2020.</p>
+            <p>Desktop view from FIGMA has been finished. Actually every single post would be an „article" tag with class „window".</p>
           </article>
 
           <article class="window"> <!-- Single „content window"-->
-              <div class="window-header__outer">
-
+            <div class="window-header__outer">
+              <div class="window-header__figures">
+                <figure class="inter-red"></figure>
+                <figure class="inter-yellow"></figure>
+                <figure class="inter-green"></figure>
               </div>
-              <div class="window-header__inner">
-
-              </div>
-              <div class="window-content">
-
-              </div>
-           </article> <!-- end of single „content window" -->
+            </div>
+            <div class="window-header__inner">
+              <figure class="window-header__inner-highlight">
+                <a href="https://youtu.be/9W6AN_eQeZo?t=30">
+                  <img src="../media/jslogo.svg" width="60px" height="60px" alt="JavaScript - Link to documentation">
+                </a>
+              </figure>
+              <h3>#1. Test Subject 2: Electric Bogaloo</h3>
+            </div>
+            <div class="window-content p__window">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend ultricies tempor.
+                Pellentesque dapibus accumsan ligula non tempus. Maecenas a gravida urna. Praesent luctus, libero accumsan convallis vulputate, 
+                tortor nulla dapibus odio, quis lobortis felis nulla at justo. Ut at imperdiet leo, eget congue turpis. Ut tristique porta odio,
+                eu eleifend quam tristique at. Nullam sed eros lacinia, laoreet mauris quis, feugiat arcu. Proin sit amet tellus a mauris 
+                pellentesque placerat. Fusce sit amet massa et risus scelerisque lacinia. Suspendisse tempus augue fringilla tempor pellentesque. 
+                Donec eget eros sit amet sapien maximus condimentum eu viverra eros. Suspendisse a lacus nec justo porta tristique sed in urna. 
+                Aenean non pharetra sem. </br>
+              </p>
+            </div>
+            <div class="code-highlighter p__window">
+              <p>
+                div</br>
+                  p</br>
+                    here will be code highlighter with Monokai Theme</br>
+                  /p</br>
+                /div
+              </p>
+            </div>
+            <div class="window-content p__window">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend ultricies tempor.
+                Pellentesque dapibus accumsan ligula non tempus. Maecenas a gravida urna. Praesent luctus, libero accumsan convallis vulputate, 
+                tortor nulla dapibus odio, quis lobortis felis nulla at justo. Ut at imperdiet leo, eget congue turpis. Ut tristique porta odio,
+                eu eleifend quam tristique at. Nullam sed eros lacinia, laoreet mauris quis, feugiat arcu. Proin sit amet tellus a mauris 
+                pellentesque placerat. Fusce sit amet massa et risus scelerisque lacinia. Suspendisse tempus augue fringilla tempor pellentesque. 
+                Donec eget eros sit amet sapien maximus condimentum eu viverra eros. Suspendisse a lacus nec justo porta tristique sed in urna. 
+                Aenean non pharetra sem. </br>
+              </p>
+            </div>
+        </article> <!-- end of single „content window" -->
 
       </main>
 
